@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ascii.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="charconv.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="escaping.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="internal\charconv_bigint.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="internal\charconv_parse.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="internal\memutil.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="match.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="numbers.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="str_cat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="str_replace.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="str_split.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="string_view.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="substitute.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="internal\charconv_bigint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\charconv_parse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\memutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\stl_type_traits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\str_join_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\str_split_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ascii.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="charconv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="escaping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\string_constant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="match.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="numbers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="str_cat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="str_join.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="str_replace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="str_split.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="string_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="strip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="substitute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3E21997A-6E01-3C48-A512-1526E9F85C72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E5701FFD-2091-3D5F-AC3D-A2C298DCD0E6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

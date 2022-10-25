@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\gmock-all.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gmock_main.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{e740d768-2bfa-40e3-9965-a2bfc8f4c713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\internal">
+      <UniqueIdentifier>{765589cb-2d61-4012-8ca5-c4d1bbf258e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{F7E90704-6D72-3E46-87E0-226C4464A7AB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\gmock\gmock.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmock\gmock-actions.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmock\gmock-cardinalities.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmock\gmock-generated-actions.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmock\gmock-generated-function-mockers.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmock\gmock-generated-matchers.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmock\gmock-generated-nice-strict.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmock\gmock-matchers.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmock\gmock-more-actions.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmock\gmock-more-matchers.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmock\gmock-spec-builders.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmock\internal\gmock-generated-internal-utils.h">
+      <Filter>include\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmock\internal\gmock-internal-utils.h">
+      <Filter>include\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmock\internal\gmock-port.h">
+      <Filter>include\internal</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
